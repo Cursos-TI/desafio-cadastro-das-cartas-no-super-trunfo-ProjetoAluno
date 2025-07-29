@@ -11,8 +11,8 @@ int main() {
    // Declaração das variaveis para carta1
 
    char estado1 = 'A';
-   char carta1 [] = "A01";
-   char cidade1 [] = "Maranhao";
+   char carta1 [5] = "A01";
+   char cidade1 [51] = "Maranhao";
    int populaçao1 = 2000000;
    float area1 = 30000.000;
    float PIB1 = 30.000000;
@@ -23,7 +23,7 @@ int main() {
     printf("Bem vindos ao desafio super trunfo (Novato)\n");
 
     printf("Estado1: ");
-    scanf("%c", &estado1);
+    scanf(" %c", &estado1);
     printf("O estado e: %c\n", estado1);
 
 
@@ -47,7 +47,7 @@ int main() {
 
    printf("Digite seu PIB: ");
    scanf("%f", &PIB1 );
-   printf("Seu PIB e: %.6f\n", PIB1);
+   printf("Seu PIB e: %.2f\n", PIB1);
 
    printf("Digite numeros de pontos turisticos: ");
    scanf("%d", &pontos1);
@@ -58,8 +58,8 @@ int main() {
 
 
    char estado2 = 'B';
-   char carta2 [] = "B02";
-   char cidade2 [] = "Bahia";
+   char carta2 [5] = "B02";
+   char cidade2 [51] = "Bahia";
    int populaçao2 = 50000;
    float area2 = 20.00000;
    float PIB2 = 50.00000;
@@ -90,7 +90,7 @@ int main() {
 
     printf("Digite seu PIB: ");
     scanf("%f", &PIB2);
-    printf("Seu PIB e: %.5f\n", PIB2);
+    printf("Seu PIB e: %.2f\n", PIB2);
 
     printf("Digite numeros de pontos turisticos: ");
     scanf("%d", &pontos2);
